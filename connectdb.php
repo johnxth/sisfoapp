@@ -11,7 +11,7 @@
 //  $db  = _select_db($db_name, $con);
   
   
- $con = _connect('127.10.133.2', 'admintVbGcz6', 'rrwK5lEZpKs-');
+ $con = _connect('http://127.10.133.2:3306', 'admintVbGcz6', 'rrwK5lEZpKs-');
  $db  = _select_db('sisfoapp', $con);
 
 /*                                                   
