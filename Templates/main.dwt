@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0075)http://localhost/phpmyadmin/main.php?token=67f76943eeb28751603e5229add55c5a -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>phpMyAdmin</title>
+    <!-- TemplateEndEditable -->
+    <link rel="stylesheet" type="text/css" href="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/phpmyadmin.css(1).php">
+<link rel="stylesheet" type="text/css" href="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/print.css" media="print">
+<link rel="stylesheet" type="text/css" href="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/jquery-ui-1.8.16.custom.css">
+    <meta name="robots" content="noindex,nofollow">
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/cross_framing_protection.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/jquery-1.6.2.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/jquery-ui-1.8.16.custom.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/update-location.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/jquery.sprintf.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/functions.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/jquery.qtip-1.0.0-rc3.js" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/messages(1).php" type="text/javascript"></script>
+<script src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/get_image.js.php" type="text/javascript"></script>
+<script type="text/javascript">
+// <![CDATA[
+if (typeof(parent.document) != 'undefined' && typeof(parent.document) != 'unknown'
+    && typeof(parent.document.title) == 'string') {
+    parent.document.title = 'localhost / 127.0.0.1 | phpMyAdmin 3.5.2.2';
+}
+// ]]>
+</script>
+        <meta name="OBGZip" content="true">
+                <!--[if IE 6]>
+        <style type="text/css">
+        /* <![CDATA[ */
+        html {
+            overflow-y: scroll;
+        }
+        /* ]]> */
+        </style>
+        <![endif]-->
+    <!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+    <body style="padding-top: 58px;">
+        <div id="floating_menubar" style="position: fixed; top: 0px; left: 0px; width: 100%; z-index: 500;">
+<div id="serverinfo">
+<img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_host item">SISFO JPTE UPI
+<div class="clearfloat"></div></div><div id="topmenucontainer" class="menucontainer"><ul id="topmenu"><li><a class="tab" href="http://localhost/phpmyadmin/server_databases.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_db">Basis data</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_sql.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_b_sql">SQL</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_status.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_status">Status</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_privileges.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_rights">Pengguna</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_export.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_b_export">Ekspor</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_import.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_b_import">Impor</a></li><li><a class="tab" href="http://localhost/phpmyadmin/prefs_manage.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_b_tblops">Pengaturan</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_synchronize.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_sync">Sinkronisasi</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_replication.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_replication">Replikasi</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_variables.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_vars">Variabel</a></li><li class="submenu shown" style=""><a href="http://localhost/phpmyadmin/main.php?token=67f76943eeb28751603e5229add55c5a#" class="tab"><img alt="" title="" src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" class="icon ic_b_more">Lainnya</a><ul class="notonly"><li><a class="tab" href="http://localhost/phpmyadmin/server_collations.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_s_asci">Set Karakter</a></li><li><a class="tab" href="http://localhost/phpmyadmin/server_engines.php?token=67f76943eeb28751603e5229add55c5a"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="" alt="" class="icon ic_b_engine">Mesin</a></li></ul></li></ul>
+<div class="clearfloat"></div></div></div>
+
+<div id="maincontainer">
+<div id="main_pane_left">
+  <div class="group"><h2>Pengaturan Umum</h2>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+  </div>
+  <div class="group"><h2>Pengaturan Tampilan</h2>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+  </div></div><div id="main_pane_right"><div class="group"><h2>Server basis data</h2><ul>
+<li id="li_server_info">Server: 127.0.0.1 via TCP/IP</li><li id="li_server_type">Perangkat lunak: MySQL</li><li id="li_server_version">Versi perangkat lunak: 5.5.27 - MySQL Community Server (GPL)</li><li id="li_mysql_proto">Versi protokol: 10</li><li id="li_user_info">Pengguna: root@localhost</li>    <li id="li_select_mysql_charset">        Set karakter server:         <span xml:lang="en" dir="ltr">           UTF-8 Unicode
+           (utf8)
+        </span>
+    </li>
+  </ul> </div><div class="group"><h2>Server web</h2><ul><li id="li_web_server_software">Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7</li><li id="li_mysql_client_version">Versi klien basis data: libmysql - mysqlnd 5.0.10 - 20111026 - $Id: b0b3b15c693b7f6aeb3aa66b646fee339f175e39 $</li><li id="li_used_php_extension">Ekstensi PHP: mysql <a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fphp.net%2Fmanual%2Fen%2Fbook.mysql.php&token=67f76943eeb28751603e5229add55c5a" target="documentation"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="Dokumentasi" alt="Dokumentasi" class="icon ic_b_help"></a></li>  </ul> </div><div class="group pmagroup"><h2>phpMyAdmin</h2><ul><li id="li_pma_version" class="jsversioncheck">Informasi versi: 3.5.2.2, versi stabil terakhir: 3.5.7</li><li id="li_pma_docs"><a href="http://localhost/phpmyadmin/Documentation.html" target="_blank">Dokumentasi</a>
+</li><li id="li_pma_wiki"><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fwiki.phpmyadmin.net%2F&token=67f76943eeb28751603e5229add55c5a" target="_blank">Wiki</a>
+</li><li id="li_pma_homepage"><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fwww.phpMyAdmin.net%2F&token=67f76943eeb28751603e5229add55c5a" target="_blank">Situs resmi</a>
+</li><li id="li_pma_contribute"><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fwww.phpmyadmin.net%2Fhome_page%2Fimprove.php&token=67f76943eeb28751603e5229add55c5a" target="_blank">Berkontribusi</a>
+</li><li id="li_pma_support"><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fwww.phpmyadmin.net%2Fhome_page%2Fsupport.php&token=67f76943eeb28751603e5229add55c5a" target="_blank">Dukungan</a>
+</li><li id="li_pma_changes"><a href="http://localhost/phpmyadmin/changelog.php" target="_blank">Daftar perubahan</a>
+</li>    </ul>
+ </div>
+
+</div>
+
+<br class="clearfloat">
+<br class="clearfloat">
+</div><div class="notice">phpMyAdmin dengan versi yang lebih baru telah tersedia dan Anda disarankan untuk meng-upgrade. Versi terbaru adalah 3.5.7, dirilis pada 2013-02-15.</div>
+
+<noscript>&lt;div class="error"&gt;Javascript support is missing or disabled in your browser, some phpMyAdmin functionality will be missing. For example navigation frame will not refresh automatically.&lt;/div&gt;</noscript><script type="text/javascript">
+//<![CDATA[
+$(document).ready(function() {
+// updates current settings
+if (window.parent.setAll) {
+    window.parent.setAll('id', 'utf8_general_ci', '1', '', '', '67f76943eeb28751603e5229add55c5a');
+}
+    // set current db, table and sql query in the querywindow
+if (window.parent.reload_querywindow) {
+    window.parent.reload_querywindow(
+        '',
+        '',
+        '');
+}
+    
+if (window.parent.frame_content) {
+    // reset content frame name, as querywindow needs to set a unique name
+    // before submitting form data, and navigation frame needs the original name
+    if (typeof(window.parent.frame_content.name) != 'undefined'
+     && window.parent.frame_content.name != 'frame_content') {
+        window.parent.frame_content.name = 'frame_content';
+    }
+    if (typeof(window.parent.frame_content.id) != 'undefined'
+     && window.parent.frame_content.id != 'frame_content') {
+        window.parent.frame_content.id = 'frame_content';
+    }
+    //window.parent.frame_content.setAttribute('name', 'frame_content');
+    //window.parent.frame_content.setAttribute('id', 'frame_content');
+}
+});
+
+//]]>
+</script>
+<div id="selflink" class="print_ignore">
+<script type="text/javascript">
+//<![CDATA[
+
+/* Store current location in hash part of URL to allow direct bookmarking */
+setURLHash("server=1&target=main.php&token=67f76943eeb28751603e5229add55c5a");
+
+//]]>
+</script>
+<a href="http://localhost/phpmyadmin/index.php?server=1&target=main.php&token=67f76943eeb28751603e5229add55c5a" title="Buka jendela phpMyAdmin baru" target="_blank"><img src="file:///C|/Users/EQNCC/Desktop/New folder (4)/localhost   127.0.0.1   phpMyAdmin 3.5.2.2_files/dot.gif" title="Buka jendela phpMyAdmin baru" alt="Buka jendela phpMyAdmin baru" class="icon ic_window-new"></a>
+</div>
+
+
+</body></html>

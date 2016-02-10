@@ -1,0 +1,1 @@
+<div class='geser-body'><?php require_once 'atribut/body.php'; ?></div>

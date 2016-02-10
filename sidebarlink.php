@@ -1,0 +1,1 @@
+<div class='sidebar'><?php require_once 'incl/sidebar.php'; ?></div>
